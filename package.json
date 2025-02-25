@@ -2,7 +2,7 @@
   "name": "findusergitb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://veroni63.github.io/GitUserFind", 
+  "homepage": "https://veroni63.github.io/GitUserFind",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -25,8 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build", // Add this line
-    "deploy": "gh-pages -d build" // Add this line
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
