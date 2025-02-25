@@ -2,6 +2,17 @@
 
 This project is built using **React.js** and integrates with the **GitHub API** to fetch user details.
 
+## Live Demo
+[Live Link to GitUserFind](https://veroni63.github.io/GitUserFind/)
+
+## Screenshots
+
+### Home Page
+![Home Page](./public/assets/homePage.png)
+
+### After Search
+![After Search](./public/assets/AfterSearch.png)
+
 ## 🚀 **Getting Started**
 
 ```bash
@@ -53,19 +64,6 @@ This API helps fetch GitHub user details based on the username.
 ✔ Displays user information dynamically  
 ✔ Uses state management with `useState`  
 ✔ Simple and beginner-friendly API integration  
-
-## Screenshots
-
-### After Search
-![After Search](./public/assets/AfterSearch.png)
-
-### Home Page
-![Home Page](./public/assets/homePage.png)
-
-## Live Demo
-[Live Link to GitUserFind](https://veroni63.github.io/GitUserFind/)
-
-
 ---
 
 Happy Coding! 🚀
