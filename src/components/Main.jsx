@@ -13,6 +13,7 @@ export default function Main() {
   };
   const handleSearchEvent = async () => {
     try {
+      
       setError("");
       const response = await axios.get(
         `https://api.github.com/users/${userName}`
@@ -41,6 +42,7 @@ export default function Main() {
           Get User Profile
         </button>
         <div>
+          {/* This will be hidded after the user start searching */}
           {userData == null && (
             <div className={styles.content}>
               <div className={styles.wel}>Hello, Welcome 👋🏼!</div>
@@ -62,6 +64,7 @@ export default function Main() {
             </div>
           )}
         </div>
+        {/* Extracting the details from the response of the api */}
         {error && <p style={{ color: "red" }}>{error}</p>}
         {userData && (
           <Container className={styles.gitDetailCard}>
