@@ -59,11 +59,5 @@ This API helps fetch GitHub user details based on the username.
 
 ---
 
-## 📌 **Features**
-✔ Fetches user details from GitHub API  
-✔ Displays user information dynamically  
-✔ Uses state management with `useState`  
-✔ Simple and beginner-friendly API integration  
----
 
 Happy Coding! 🚀
